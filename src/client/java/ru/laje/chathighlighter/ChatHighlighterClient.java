@@ -4,11 +4,15 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.minecraft.client.option.KeyBinding;
-import net.minecraft.client.util.InputUtil;
+import net.minecraft.util.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public final class ChatHighlighterClient implements ClientModInitializer {
     public static final String MOD_ID = "chat_highlighter";
+
+    private static final KeyBinding.Category CATEGORY = KeyBinding.Category.create(
+            Identifier.of(MOD_ID, "chat_highlighter")
+    );
 
     private static KeyBinding openMenuKey;
     public static ChatHighlighterConfig config;
@@ -19,9 +23,8 @@ public final class ChatHighlighterClient implements ClientModInitializer {
 
         openMenuKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.chat_highlighter.open",
-                InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_H,
-                "category.chat_highlighter"
+                CATEGORY
         ));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
