@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "chat_highlighter",
+  "version": "${version}",
+  "name": "Chat Keyword Highlighter",
+  "description": "Client-side menu for adding chat keywords and highlighting them in Minecraft chat.",
+  "authors": ["Laje"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.laje.chathighlighter.ChatHighlighterClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "chat_highlighter.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

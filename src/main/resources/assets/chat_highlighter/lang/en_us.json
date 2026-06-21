@@ -1,0 +1,20 @@
+{
+  "category.chat_highlighter": "Chat Highlighting",
+  "key.chat_highlighter.open": "Open chat highlighter menu",
+  "screen.chat_highlighter.title": "Chat Keyword Highlighter",
+  "screen.chat_highlighter.input": "New keyword",
+  "screen.chat_highlighter.add": "Add",
+  "screen.chat_highlighter.done": "Done",
+  "screen.chat_highlighter.enabled.on": "Enabled: yes",
+  "screen.chat_highlighter.enabled.off": "Enabled: no",
+  "screen.chat_highlighter.case.on": "Case: yes",
+  "screen.chat_highlighter.case.off": "Case: no",
+  "screen.chat_highlighter.words.on": "Whole words: yes",
+  "screen.chat_highlighter.words.off": "Whole words: no",
+  "screen.chat_highlighter.color": "Color: #%s",
+  "screen.chat_highlighter.prev": "Previous",
+  "screen.chat_highlighter.next": "Next",
+  "screen.chat_highlighter.remove": "✕ %s",
+  "screen.chat_highlighter.empty": "Add a word above — it will be highlighted in chat.",
+  "screen.chat_highlighter.page": "Page %d / %d"
+}

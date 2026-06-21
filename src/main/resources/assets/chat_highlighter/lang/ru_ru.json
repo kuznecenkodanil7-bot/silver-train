@@ -1,0 +1,20 @@
+{
+  "category.chat_highlighter": "Подсветка чата",
+  "key.chat_highlighter.open": "Открыть меню подсветки чата",
+  "screen.chat_highlighter.title": "Подсветка ключевых слов",
+  "screen.chat_highlighter.input": "Новое ключевое слово",
+  "screen.chat_highlighter.add": "Добавить",
+  "screen.chat_highlighter.done": "Готово",
+  "screen.chat_highlighter.enabled.on": "Вкл: да",
+  "screen.chat_highlighter.enabled.off": "Вкл: нет",
+  "screen.chat_highlighter.case.on": "Регистр: да",
+  "screen.chat_highlighter.case.off": "Регистр: нет",
+  "screen.chat_highlighter.words.on": "Целые слова: да",
+  "screen.chat_highlighter.words.off": "Целые слова: нет",
+  "screen.chat_highlighter.color": "Цвет: #%s",
+  "screen.chat_highlighter.prev": "Назад",
+  "screen.chat_highlighter.next": "Вперёд",
+  "screen.chat_highlighter.remove": "✕ %s",
+  "screen.chat_highlighter.empty": "Добавь слово сверху — оно будет подсвечиваться в чате.",
+  "screen.chat_highlighter.page": "Страница %d / %d"
+}
